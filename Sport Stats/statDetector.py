@@ -18,7 +18,7 @@ statList = ["points", "pointsAllowed", "TDs"]
 connotationList = ["positive", "neutral", "negative"]
 teamList = ["49ers", "Bears", "Bengals"]
 
-# statDict (+0 (pos.) or +2 (neg.) for connotation)
+# statDict (+0 (pos.) or +1 (neg.) for connotation)
 statDict = {
     "points": "0",
     "pointsAllowed": "1",
@@ -30,7 +30,7 @@ stat = statList[int(stat) - 1]
 connotation = connotationList[int(connotation) - 1]
 team = teamList[int(team) - 1]
 
-# connotationWeight (+0. or +2 based on statDict)
+# connotationWeight (+0 or +1 based on statDict)
 connotationWeight = statDict[stat]
 
 # Opening and reading the stats.txt file
