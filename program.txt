@@ -1,1 +1,0 @@
-{'Seasons': '1', 'Games Per Season': '17', 'Teams': '32', 'Games Per Week': '16'}
